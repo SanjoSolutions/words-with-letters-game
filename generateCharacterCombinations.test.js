@@ -1,3 +1,4 @@
-import { generateCharacterCombinations } from './index.js'
+import { generateCharacterCombinations } from './generateCharacterCombinations.js'
+import { words } from './words/words.js'
 
-const result = generateCharacterCombinations({ minimumLength: 3, maximumLength: 3 })
+const result = generateCharacterCombinations(words, { minimumLength: 3, maximumLength: 3 })
